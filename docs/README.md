@@ -1,5 +1,10 @@
-The only purpose of this repo is to test github pages.
+# Welcome
+Welcome to my personal blog. Please have a look at my recent posts:
 
-It will be deleted soon :-)
-
-I wonder if it can display formulas like $2^{256}-1$ ?
+<ul>		
+   {% for post in site.posts limit:25 %}		
+     <li>		
+       {{ post.date | date_to_string: "ordinal", "DE" }}: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>		
+     </li>		
+   {% endfor %}		
+</ul>
