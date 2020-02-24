@@ -36,9 +36,8 @@
         
         <div class="navbox">
           <h2>Categories:</h2>
-          {% assign sortedCategories = site.categories | sort %}
-          {% for category in sortedCategories %}
-            <b><a href="{{site.baseurl}}/category/{{category}}">{{ category | first }}</a></b>
+          {% for category in site.categories %}
+            <b><a href="{{site.baseurl}}/category/{{ category | first }}">{{ category | first }}</a></b>
             <br />
           {% endfor %}
         </div>
