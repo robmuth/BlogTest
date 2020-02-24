@@ -25,9 +25,9 @@
   
         <div class="recentPosts">
             {% for post in site.posts %}
-              <h3>
+              <h4>
                 {{ post.date | date_to_string: "ordinal", "DE" }}: 
-              </h3>
+              </h4>
               <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
             {% endfor %}
         </div>
