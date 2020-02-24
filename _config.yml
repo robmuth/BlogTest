@@ -5,3 +5,4 @@ locale: en-US
 title: Blog
 name: Blog
 timezone: Europe/Berlin
+markdown: kramdown
