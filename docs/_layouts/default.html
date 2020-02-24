@@ -26,11 +26,13 @@
         <div class="navbox">
           <h2>Recent Posts:</h2>
           {% for post in site.posts limit:5 %}
-            <b>
-              {{ post.date | date_to_string: "ordinal", "DE" }}: 
-            </b>
-            <br />
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <p>
+              <b>
+                {{ post.date | date_to_string: "ordinal", "DE" }}: 
+              </b>
+              <br />
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </p>
           {% endfor %}
         </div>
         
