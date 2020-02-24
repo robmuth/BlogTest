@@ -1,5 +1,3 @@
-# BlogTest
-
 {% include katex.html %}
 
 The only purpose of this repo is to test github pages.
