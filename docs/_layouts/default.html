@@ -37,7 +37,7 @@
           <h2>Categories:</h2>
           {% assign sortedCategories = site.categories | sort %}
           {% for category in sortedCategories %}
-            <h4><a href="{{ category.url | prepend: "category/" | prepend: site.baseurl }}">{{ category | first }}</a></h4>
+            <h4><a href="{{ category.url | prepend: "/category/" | prepend: site.baseurl }}">{{ category | first }}</a></h4>
           {% endfor %}
         </div>
 
