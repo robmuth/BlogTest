@@ -2,8 +2,6 @@
 
 <script src="{{ base.url | prepend: site.url }}/assets/js/katex.js"></script>
 
-{% include head.html %}
-
 The only purpose of this repo is to test github pages.
 
 It will be deleted soon :-)
