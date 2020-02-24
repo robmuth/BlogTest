@@ -3,10 +3,9 @@ layout: default
 ---
 
 {% assign showCategory = page.categories | first %}
-  <h3>{{ showCategory }}</h3>
-  <ul>
-    {% for post in site.categories[showCategory] %}
-      <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<h3>{{ showCategory }}</h3>
+<ul>
+  {% for post in site.categories[showCategory] %}
+    <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
