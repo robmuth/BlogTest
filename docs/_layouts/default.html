@@ -24,9 +24,9 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 
-          <ul>
+          <ul class="recentPosts">
             {% for post in site.posts %}
-              <li>
+              <li class="recentPost">
                 {{ post.date | date_to_string: "ordinal", "DE" }}: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </li>
             {% endfor %}
