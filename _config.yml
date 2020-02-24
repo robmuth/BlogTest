@@ -3,4 +3,5 @@ url: https://robmuth.github.io
 baseurl: /BlogTest
 locale: en-US
 title: Blog
+name: Blog
 timezone: Europe/Berlin
