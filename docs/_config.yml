@@ -3,7 +3,6 @@ url: https://robmuth.github.io
 baseurl: /BlogTest
 locale: en-US
 title: Blog
-name: Test Blog
 timezone: Europe/Berlin
 markdown: kramdown
 collections:
