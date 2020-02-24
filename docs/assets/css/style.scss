@@ -3,7 +3,10 @@
 
 @import "{{ site.theme }}";
 
-header ul { all: initial; }
+header ul { 
+  all: initial; 
+  list-style-type: circle;
+}
 
 header li { all: initial; }
 
