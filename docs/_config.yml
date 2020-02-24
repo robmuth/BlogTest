@@ -17,3 +17,9 @@ defaults:
     values:
       layout: "post"
       author: "Rob"
+      
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
