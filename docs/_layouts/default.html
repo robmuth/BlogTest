@@ -22,16 +22,16 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-
-          <ul class="recentPosts">
+  
+        <div class="recentPosts">
+          <ul>
             {% for post in site.posts %}
               <li class="recentPost">
                 {{ post.date | date_to_string: "ordinal", "DE" }}: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </li>
             {% endfor %}
           </ul>
-
+        </div>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
