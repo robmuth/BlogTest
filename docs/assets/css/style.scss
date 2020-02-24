@@ -3,11 +3,6 @@
 
 @import "{{ site.theme }}";
 
-header ul { 
-  all: initial; 
-  list-style-type: circle;
-}
-
 header li { all: initial; }
 
 header ul a { all: initial; }
@@ -17,3 +12,8 @@ header li:first-child a { all: initial; }
 header li:first-child a { all: initial; }
 
 header li:last-child a { all: initial; }
+
+header ul { 
+  all: initial; 
+  list-style-type: circle;
+}
